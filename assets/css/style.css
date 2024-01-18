@@ -56,6 +56,21 @@ figure {
     text-align: center;
 }
 
+#tabelaPremios {
+    border-style: solid;
+}
+
 #estreiaAvatar table:hover{
     cursor: pointer
+}
+
+#tabelaPremios thead th{
+    background-color: rgb(197, 197, 197);
+}
+
+#tabelaPremios tbody tr{
+    background-color: rgb(237, 237, 239);
+}
+#tabelaPremios tr {
+    text-align: center;
 }
