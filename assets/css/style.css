@@ -37,40 +37,31 @@ figure {
     text-align: center;
 }
 
-#estreiaAvatar {
+table {
     border-style: solid;
 }
 
-#estreiaAvatar thead th {
-    background-color: rgb(197, 197, 197);
-}
-#estreiaAvatar tfoot td {
+table thead th {
     background-color: rgb(197, 197, 197);
 }
 
-#estreiaAvatar tbody tr {
+table tfoot th{
+    background-color: rgb(197, 197, 197);
+}
+
+table tbody tr {
     background-color: rgb(237, 237, 239);
 }
 
-#estreiaAvatar tr {
+table tr {
     text-align: center;
 }
 
-#tabelaPremios {
-    border-style: solid;
+#lstpersonagensRM {
+    list-style: disc;
+    padding-left: 50px;
 }
 
-#estreiaAvatar table:hover{
-    cursor: pointer
-}
-
-#tabelaPremios thead th{
-    background-color: rgb(197, 197, 197);
-}
-
-#tabelaPremios tbody tr{
-    background-color: rgb(237, 237, 239);
-}
-#tabelaPremios tr {
-    text-align: center;
+#lstpersonagensRM li{
+    margin-bottom: 15px;
 }
