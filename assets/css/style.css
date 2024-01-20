@@ -57,11 +57,19 @@ table tr {
     text-align: center;
 }
 
-#lstpersonagensRM {
+#ulRM {
     list-style: disc;
     padding-left: 50px;
 }
 
-#lstpersonagensRM li{
+#ulRM li{
     margin-bottom: 15px;
+}
+blockquote {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: #eceaea;
+    border-left-style: solid;
+    border-left-color: #cdcdcd;
+    border-left-width: 10px;
 }
